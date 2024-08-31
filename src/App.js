@@ -1,26 +1,20 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header.js';
+import Footer from './components/Footer.js';
+import Main from './components/Main.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React in less than a day
-          with Vidhara
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
