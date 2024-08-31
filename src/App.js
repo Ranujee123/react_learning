@@ -16,6 +16,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React in less than a day
+          with Vidhara
         </a>
       </header>
     </div>
